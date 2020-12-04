@@ -1,0 +1,106 @@
+div .containerAddPage {        
+    margin-top: 12vh;
+    /* margin-bottom: 5vh; */
+    background-image: url('../assets/nightTime.jpg');
+    background-repeat: round;
+    /* background-image: cover; */
+    width: 100%;
+    height: auto;
+    padding-bottom: 10vh;
+}
+.nav {
+    z-index: 1;
+}
+form.add {
+    /* z-index: -1;  */
+    margin-top: 10vh;
+    background-color: rgba(241, 13, 241, 0.61);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* opacity: 0.75; */
+}
+
+input{
+    width: 90%;
+}
+
+label {
+    font-size: 30px;
+}
+
+h2.text-center {
+    font-size: 50px;
+    text-emphasis: bold;
+    color: white;
+}
+
+.form-group {
+    margin: auto;
+    padding: auto;
+}
+
+input .form-control {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: lightskyblue;
+    color: white;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+}
+
+input {
+    z-index: 1;
+}
+
+
+.select-style {
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa;
+    display: block;
+    margin: 0 auto;
+}
+
+.select-style select {
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+.body {
+    background-image: url('../assets/cincinnati.jpg');
+}
+
+option {
+    text-align-last: center;
+}
+
+.dropdown {
+    text-align-last: center;
+}
+
+select .form-control {
+    text-align: center;
+    padding-left: 15px;
+}
